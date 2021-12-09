@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--color-main);
+    color: var(--color-white);
+    width: var(--width-Desktop);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+:root{
+    --width-Desktop: 100%;
+    --width-card: 345px;
+    --color-main: hsl(217, 54%, 11%);
+    --color-card: hsl(216, 50%, 16%);
+    --color-line: hsl(215, 32%, 27%);
+    --color-white: hsl(0, 0%, 100%);
+}
+
+.card{
+    width: var(--width-card);
+    height: 600px;
+    background: var(--color-card);
+    border-radius: 20px;
+    margin: 120px auto;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.card-header{
+    background: var(--color-card);
+    width: var(--width-card);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card-header img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-main{
+    background: var(--color-card);
+}
+
+.card-main h1{
+    background: var(--color-card);
+    margin-top: 22px;
+    padding-left: 22px;
+    font-size: 1.2rem;
+    font-weight: 600;   
+    width: 201px;
+}
+
+.card-main h1:hover{
+    color: cyan;
+}
+
+.card-main p{
+    background: var(--color-card);
+    padding-left: 22px;
+    padding-top: 15px;
+    font-weight: 100;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-main-up{
+    padding-top: 8px;
+    padding-left: 22px;
+    background: var(--color-card);
+    width: 50%;
+    float: left;
+}
+
+.card-main-up img{
+    width: 12px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    background: var(--color-card);
+}
+
+.card-main-up p{
+    color: cyan;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card-main-down{
+    width: 50%;
+    float: right;
+    padding-left: 40px;
+    background: var(--color-card);
+    padding-bottom: 22px;
+}
+
+.card-main-down p{
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+.card-main-down img{
+    width: 20px;
+    height: auto;
+    float: left;
+    margin-right: 8px;
+    padding-top: 18px;
+    background: var(--color-card);
+}
+
+.card .line{
+    width: 300px;
+    height: 1.5px;
+    display: flex;
+    margin: 0 auto;
+    background: var(--color-line);
+}
+
+.card-footer img{
+    width: 40px;
+    height: auto;
+    margin-top: 22px;
+    margin-left: 22px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 1.5px white;
+    float: left;
+}
+
+.card-footer p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-left: 90px;
+    color: hsl(215, 51%, 70%);
+    background: var(--color-card);
+}
+
+.card-footer p span:hover{
+    color: cyan;
+}
+
+.card-footer p span{
+    background: var(--color-card);
+}
+
